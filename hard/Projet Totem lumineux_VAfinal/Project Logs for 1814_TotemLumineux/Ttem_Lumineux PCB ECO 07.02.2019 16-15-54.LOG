@@ -1,0 +1,9 @@
+Removed Member From Class: ClassName=Pic Member=*1
+Added Component: Designator=U7(Type 3mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3V3 Pin=U7-1
+Added Pin To Net: NetName=Net*1_E Pin=U7-2
+Change Net Name : Old Net Name=Net*1_E New Net Name=NetC20_2
+Added Member To Class: ClassName=Pic Member=Component U7 TEPT4400
+Added Room: Name=Alim
+Added Room: Name=Pic

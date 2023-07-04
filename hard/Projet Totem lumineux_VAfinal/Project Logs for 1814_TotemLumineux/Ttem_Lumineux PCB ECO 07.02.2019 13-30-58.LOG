@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U1 Old Footprint=61300511121 New Footprint=DC-DC
+Change Component Footprint: Designator=U2 Old Footprint=61300511121 New Footprint=DC-DC
+Added Room: Name=Alim
+Added Room: Name=Pic

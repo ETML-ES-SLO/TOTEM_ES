@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Ttem_Lumineux.PcbDoc]
+   Generated File[Ttem_Lumineux.TXT]
+   Generated File[Ttem_Lumineux.LDP]
+   Generated File[Ttem_Lumineux.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:58:09 On 14.03.2019

@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C28
+Added Component: Designator=J7(691250910002)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://katalog.we-online.de/em/datasheet/6912509100XX.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-30to120degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "691250910002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "691250910002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "9.52mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vbatt Pin=J7-1
+Added Pin To Net: NetName=GND Pin=J7-2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC28_1
+Added Member To Class: ClassName=Alim Member=Component J7 691250910002
+Added Room: Name=Alim
+Added Room: Name=Pic

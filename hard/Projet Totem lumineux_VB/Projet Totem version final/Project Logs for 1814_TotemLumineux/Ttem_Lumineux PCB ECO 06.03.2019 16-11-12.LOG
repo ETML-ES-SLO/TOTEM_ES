@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=Pic Member=C17
+Removed Member From Class: ClassName=Pic Member=C18
+Removed Member From Class: ClassName=Pic Member=C19
+Removed Member From Class: ClassName=Alim Member=C21
+Removed Member From Class: ClassName=Alim Member=C24
+Change Component Footprint: Designator=C26 Old Footprint=CAPC0805(2012)155_L New Footprint=CAPC0805(2012)155_L
+Added Member To Class: ClassName=Alim Member=Component C16 47uF
+Added Member To Class: ClassName=Alim Member=Component C19 47uF
+Added Member To Class: ClassName=Pic Member=Component C25 100n
+Added Member To Class: ClassName=Pic Member=Component C26 10uF
+Added Member To Class: ClassName=Pic Member=Component C27 100n
+Added Member To Class: ClassName=Pic Member=Component C28 100n
