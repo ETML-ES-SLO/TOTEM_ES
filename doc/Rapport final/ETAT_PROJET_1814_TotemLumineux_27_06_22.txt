@@ -1,8 +1,0 @@
-Etat du projet 1814_TotemLumineux
-
-- Nouveaux composants trouvés (voir dans la BOM)
-- Finir la schématique, avec les régulateurs 3,3V & 5V
-- Réfléchir à des nouveaux connecteurs (voir chez Wurth)
-- Chercher connecteur pour leds
-- Changer schématique du module wifi (empreinte MIKROE)
-- Router le PCB avec les nouveaux composants
