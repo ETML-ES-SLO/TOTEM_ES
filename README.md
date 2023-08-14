@@ -1,8 +1,10 @@
 # TOTEM FIXME 
 ***
-![croquis du totem](https://github.com/philouxy/TOTEM_FIXME/tree/main/doc/Images/CroquisTotem.PNG)
+
+![croquis du totem](/doc/Images/CroquisTotem.PNG)
 
 ##Description 
+
 [FR] : le but de ce projet est de réaliser un totem lumineux pouvant afficher des messages défilants ou des animations. 
 Ce totem sera utilisé lors de festivales ou de manifestions lié aux activités du hackersapce Fixme, que ce soit à l'intérieur ou à l'éxtérieur.
 Un premier prototype a été réaliser par un ex-étudiant de l'ES (Nicolas Furst), ce protoype est composé de :  
