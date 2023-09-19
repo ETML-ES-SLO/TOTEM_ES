@@ -22,6 +22,6 @@ A first prototype was realized by an former student of the ES technical school (
 | --- | --- | 
 | ![TOP](/doc/Images/Mechanical_Top.PNG) | ![BOTTOM](/doc/Images/Mechanical_BOTTOM.PNG) | 
 
-** note ** : the mechanical schematic was realized on the Solid Works CAO software - for using the mechanical files, go into the **mec** folder 
+**note** : the mechanical schematic was realized on the Solid Works CAO software - for using the mechanical files, go into the **mec** folder 
 
 

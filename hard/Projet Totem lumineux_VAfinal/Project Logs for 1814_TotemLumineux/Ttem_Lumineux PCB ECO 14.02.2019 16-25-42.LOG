@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=Vbatt Pin=R7-2
-Added Pin To Net: NetName=12Vbatt Pin=R7-2
-Added Member To Class: ClassName=Pic Member=Component U6 ATWILC1000
-Added Room: Name=Alim
-Added Room: Name=Pic
