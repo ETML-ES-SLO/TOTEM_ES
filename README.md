@@ -47,7 +47,7 @@ in progress
 
 ##### **Current measurement**
 
-* a no exhaustive list of main electronics parts - here the main components used in this project, for more details, see the [BOM](/hardware/BOM/Liste des Composant_V1.xlsx) 
+Below a no exhaustive list of main electronics parts - here the main components used in this project, for more details, see the [BOM](https://github.com/philouxy/TOTEM_FIXME/hardware/BOM/Liste des Composant_V1.xlsx) 
 
 | description | manufacturer | model | datasheet | remarks |
 | --- | --- | --- | --- | --- | 
