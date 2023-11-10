@@ -62,7 +62,11 @@ On a besoin de :
 * deux pins de programmation 
 * alimentation pour la partie digitales et analogiques 
 
-ce qui fait au minium ~ **20pins** 
+ce qui fait au minium ~ **20pins** => voir le tableau ci-dessous 
+
+En se référant au [datasheet PIC32MX795H](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX5XX6XX7XX_Family%29Datasheet_DS60001156K.pdf),
+vu le nombre de pattes estimées, il serait bien de choisir un boitier de type **TQFP** de 64pins. 
+On reste sur du prototype, donc il serait bien d'utiliser le chip ayant le plus de mémoire (ROM -> 512ko | RAM -> 128ko)      
 
 [EN]: to choose the microcontroller, to need to determine the functions required - see the table below
 It needs : 
@@ -73,7 +77,10 @@ It needs :
 * 2x programming Pins
 * pins for the digital and analog part 
 
-we need minimum ~ **20pins**
+we need minimum ~ **20pins** => see table below  
+
+In reference with [datasheet PIC32MX795H](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX5XX6XX7XX_Family%29Datasheet_DS60001156K.pdf), 
+and with the above estimate, it would be a good idea to use **TQFP** box, with 64pins. What's more, this is a prototype, so it would be a good idea to also take the uC with the largest memory (ROM -> 512ko | RAM -> 128ko)  
 
 | -Application- | -Function- | -Pin's Number | 
 | --- | --- | --- | 
@@ -89,7 +96,8 @@ we need minimum ~ **20pins**
 | Power Supply analog Input | AVDD | minimum 1x | 
 | Ground Supply | VSS - AVSS | minimum 2x | 
 
-
+Below, features extracted from the datasheet 
+![PIC32M795 features](/doc/Images/Info_uC_PIC.PNG)
 
 ### **SENSORS** 
 
@@ -99,8 +107,9 @@ we need minimum ~ **20pins**
 
 Below a no exhaustive list of main electronics parts - here the main components used in this project, for more details, see the [BOM](/hardware/BOM/ListeComposants_V1.xlsx) 
 
-| description | manufacturer | model | datasheet | remarks |
-| --- | --- | --- | --- | --- | 
+| description | manufacturer | model | datasheet | remarks | name supplier | supplier reference |
+| --- | --- | --- | --- | --- | --- | --- |  
+| microcontroller PIC family | Microchip | PICMX795H | [datasheet PIC32MX795H](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX5XX6XX7XX_Family%29Datasheet_DS60001156K.pdf) | TQFP housing | Farnell | [1778989](https://ch.farnell.com/fr-CH/microchip/pic32mx795f512h-80i-pt/micro-32-bits-512k-flash-usb-64tqfp/dp/1778989) | 
 | IOT module IEEE 802.11 | Microchip | ATWILC1000-MR110xB | [datasheet ATWILC100](https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/DataSheets/ATWILC1000-MR110XB-IEEE-802.11-b-g-n-Link-Controller-Module-DS70005326E.pdf) | no comments |
 | DC/DC Converter (Input : 4,5 to 14V Ouput : 0 - 6V / 10A | lineage Power | NQR010A0X4 | [datasheet NQR010A0X4](/doc/datasheets/Alimentation/NQR010A0X-477178.pdf) | probably osbolete component | 
 | current sensing Amplifier | TI | LMP860x | [datasheet LMP860x](https://www.ti.com/lit/ds/symlink/lmp8601.pdf?ts=1695161032082&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMP8601)  | no comments | 
