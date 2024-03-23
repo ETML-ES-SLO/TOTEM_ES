@@ -50,6 +50,7 @@ in progress
 #### **Regulator**
 
 ### **DISPLAY**
+2 flexible LEDS panels (8 x 32 => 256 type leds [WS2812B](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) or [SK6812](https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf))  
 
 ### **MICROCONTROLER** 
 
@@ -82,7 +83,7 @@ we need minimum ~ **20pins** => see table below
 In reference with [datasheet PIC32MX795H](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32MX5XX6XX7XX_Family%29Datasheet_DS60001156K.pdf), 
 and with the above estimate, it would be a good idea to use **TQFP** box, with 64pins. What's more, this is a prototype, so it would be a good idea to also take the uC with the largest memory (ROM -> 512ko | RAM -> 128ko)  
 
-| -Application- | -Function- | -Pin's Number | 
+| -Application- | -Function- | -Pin's Number- | 
 | --- | --- | --- | 
 | battery current measurement | Analogic Input (ADC) | 1x | 
 | battery voltage measurement | Analogic Input (ADC) | 1x | 
@@ -97,7 +98,7 @@ and with the above estimate, it would be a good idea to use **TQFP** box, with 6
 | Ground Supply | VSS - AVSS | minimum 2x | 
 
 Below, features extracted from the datasheet 
-![PIC32M795 features](/doc/Images/Info_uC_PIC.PNG)
+![PIC32M795 features](/doc/Images/Info_uC_PIC.png)
 
 ### **SENSORS** 
 
