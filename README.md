@@ -120,12 +120,8 @@ Below a no exhaustive list of main electronics parts - here the main components 
 | Intelligent Control LED | Worldsemi | WS2812B | [datasheet WS2812B](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) | link with led pannels | 
 | --- | --- | --- | --- | --- | 
 
-## **Firmeware part** 
 
-In progress 
-
-
-## **SOFTWARE part**
+## **SOFTWARE (Firmeware - Software)**
 ### **Description**
 
 [FR]: Pour la partie connexion avec la carte électronique, cela se fera par le réseau WiFi en connexion point à point avec une application (non défini) qui communiquera pour piloter le ToTem. 
@@ -147,3 +143,9 @@ The possible functions will be :
 * display's frequency modification
 * display the battery level 
 * animation - gaming 
+
+### **Firmeware part** 
+
+### **software application** 
+
+In progress 
